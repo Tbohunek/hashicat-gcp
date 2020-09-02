@@ -4,7 +4,7 @@ module "vpc" {
   
     
     project_id   = var.project
-    network_name = "${var.prefix}-vpc"
+    network_name = "${var.prefix}-vpc-2"
     routing_mode = "GLOBAL"
 
     subnets = [
